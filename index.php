@@ -121,6 +121,8 @@
   <!-- Atribut Dekorasi -->
   <img src="./src/img/decoration.png" alt="" class="absolute mt-48 left-[85%]" />
   <img src="./src/img/decoration.png" alt="" class="absolute mt-[56.25rem] -rotate-180 left-[3%]" />
+  <img src="./src/img/decoration.png" alt="" class="absolute mt-[105rem] rotate-90 left-[85%]" />
+  <img src="./src/img/decoration_arrow.png" alt="" class="absolute mt-[135rem] left-[5%]" width="40px" />
   <!-- Atribut Dekorasi Selesai -->
 
   <!-- Destinasi -->
@@ -227,7 +229,7 @@
         <label for="identitas" class=" block text-sm font-medium text-slate-700">
           Nomor Identitas
         </label>
-        <input type="number" name="identitas" id="identitas" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="3322011xxxxx" />
+        <input type="text" name="identitas" id="identitas" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="3322011xxxxx" />
       </div>
 
       <div class="block w-6/12 mx-auto mt-5">
