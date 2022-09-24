@@ -43,10 +43,6 @@
       align-items: center;
       justify-content: center;
     }
-
-    .modal {
-      background-color: transparent;
-    }
   </style>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -276,13 +272,6 @@
         <input type="number" name="pengunjungAnak" id="pengunjungAnak" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="0" />
       </div>
 
-      <!-- <div class="block w-6/12 mx-auto mt-5">
-        <label for="pengunjungLansia" class=" block text-sm font-medium text-slate-700">
-          Pengunjung Lansia
-        </label>
-        <input type="number" name="pengunjungLansia" id="pengunjungLansia" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="0" />
-      </div> -->
-
       <div class="flex w-6/12 items-end mx-auto mt-5">
         <button class="bg-biruh hover:bg-cyan-500 w-44 h-11 drop-shadow-lg font-semibold text-base rounded-md text-white" id="btnInfoHarga">
           Tampilkan Harga
@@ -310,7 +299,7 @@
       <!-- Modal Form -->
 
       <input type="checkbox" id="form_modal" class="modal-toggle " />
-      <div class="modal">
+      <div class="modal bg-transparent">
         <div class="modal-box w-11/12 max-w-5xl">
           <h3 class="font-bold text-lg">Detail Pemesanan Tiket</h3>
           <p class="py-4" id="detailPemesan"></p>
