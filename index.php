@@ -305,8 +305,11 @@
         <div class="modal-box w-11/12 max-w-5xl">
           <h3 class="font-bold text-lg">Detail Pemesanan Tiket</h3>
           <p class="py-4" id="detailPemesan"></p>
+          <p class="flex items-center justify-start text-sm gap-2"><input type="checkbox" class="checkbox w-5 h-5" id="sepakat" />
+            Saya dan/ atau rombongan telah membaca, memahami, dan setuju berdasarkan syarat dan ketentuan yang telah ditetapkan.</p>
+
           <div class="modal-action text-white">
-            <button type="submit" name="submit" class="bg-biruh hover:bg-cyan-500 w-56 h-11 drop-shadow-lg font-semibold text-base rounded-md">
+            <button type="submit" name="submit" class="bg-biruh hover:bg-cyan-500 w-56 h-11 drop-shadow-lg font-semibold text-base rounded-md hidden konfirmBtn" id="konfirmBtn">
               Konfirmasi Pembayaran
             </button>
             <label for="form_modal" class="bg-[#f44336] hover:bg-[#c3352b] w-32 h-11 drop-shadow-lg font-semibold text-base rounded-md cursor-pointer flex items-center justify-center">Tutup</label>

@@ -16,6 +16,9 @@ const btnInfoHarga = document.getElementById("btnInfoHarga");
 const btnReset = document.getElementById("btnReset");
 const detailPemesan = document.getElementById("detailPemesan");
 
+const sepakat = document.getElementById("sepakat");
+const konfirmBtn = document.getElementById("konfirmBtn");
+
 btnInfoHarga.addEventListener("click", (event) => {
   event.preventDefault();
   infoHarga.classList.remove("hidden");
@@ -87,4 +90,12 @@ btnReset.addEventListener("click", (e) => {
   formTiket.reset();
   hargaTiket.innerText = "0.000";
   hargaTiketTotal.innerText = "0.000";
+});
+
+sepakat.addEventListener("change", () => {
+  if (sepakat.checked) {
+    konfirmBtn.classList.remove("hidden");
+  } else {
+    konfirmBtn.classList.add("hidden");
+  }
 });
